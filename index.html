@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+	<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.js"integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="crossorigin="anonymous"></script>
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+	
+	<title>Something</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body><center>
+	<div class="js-clock">
+		<h1>00:00</h1>
+		<!-- <h1 class = "js-title"></h1> -->
+	</div>
+
+	<form class = "js-form form">
+		<input type="text" placeholder="What is your name?" />
+	</form>
+    <!-- User 이름을 물어보기
+    여기서 form으로 작성한 이유는 enter를 쳤을 때, 반영하기 위해서
+    default에 의해서 form을 제출 시, 다른 곳으로 보내려 함. -->
+	
+	<h4 class="js-greetings greetings"></h4>
+	<form class="js-toDoForm">
+		<input type="text" placeholder="Write a to do" />
+	</form>
+
+
+
+
+	<ul class="js-toDoList">
+	</ul>
+
+	<span class ="js-weather"></span>
+	<script src="clock.js"></script>
+	<script src="greeting.js"></script>
+	<script src="todo.js"></script>
+	<script src="bg.js"></script>
+	<script src="weather.js"></script>
+</center>
+</body>
+</html>
