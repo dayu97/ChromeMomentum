@@ -5,7 +5,7 @@ const IMG_num = 4
 
 function paintImg(imgNumber){
     const image = new Image();
-    image.src = `images/${imgNumber+1}.jpg`;
+    image.src = `C:/Users/Dayu/Desktop/PythonWorkspace/images/${imgNumber+1}.jpg`;
     image.classList.add('bgImage')
     body.appendChild(image)
 }
